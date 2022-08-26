@@ -1,8 +1,8 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
-		"module": "NodeNext",
-		"lib": ["DOM", "DOM.Iterable", "ES2020"],
+		"target": "ES2020",
+		"lib": ["ES2020"],
+		"module": "ES2020",
 		"moduleResolution": "NodeNext",
 		"strict": true,
 		"sourceMap": true,
@@ -17,11 +17,7 @@
 		"useDefineForClassFields": true,
 		"skipLibCheck": true,
 		"isolatedModules": true,
-		"allowJs": false,
-		"baseUrl": "./",
-		"paths": {
-			"*": ["src/*"]
-		}
+		"allowJs": false
 	},
 	"include": ["src"],
 	"exclude": ["node_modules", "dist"]

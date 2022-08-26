@@ -26,6 +26,9 @@ export default {
 		typescript({
 			clean: true,
 			useTsconfigDeclarationDir: true,
+			tsconfigOverride: {
+				exclude: ['src/**/__tests__/**'],
+			},
 		}),
 		commonjs(),
 		nodeResolve(),

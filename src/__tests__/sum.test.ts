@@ -1,4 +1,5 @@
-import { sum } from '../sum';
+import { describe, expect, test } from 'vitest';
+import { sum } from '../sum.js';
 
 describe('sum', () => {
 	test('should return correct sum value', () => {
