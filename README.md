@@ -2,7 +2,7 @@
 
 <div align="center">
   <p>
-    A boilerplate with opinionated setup to help you kickstart your own Node.js module.
+    A boilerplate with opinionated setup to help you kickstart your own Node.js package.
   </p>
   <img src="https://img.shields.io/github/license/boilertowns/node-package-boilerplate?style=flat-square" alt="MIT license" >
 </div>
@@ -15,6 +15,8 @@
 - Build with [Rollup][rollup-url]
 - [Jest][jest-url] for Unit test
 - Automated release with [changesets][changesets-url]
+- Build library for Node.js 14 or newer.
+- Support both CJS & ESM.
 
 ## Get Started
 
@@ -42,13 +44,13 @@
 
 ## Development
 
-- Run the app in development mode:
+- Run the package in development mode:
 
   ```sh
   pnpm dev
   ```
 
-- Build the app:
+- Build for production:
 
   ```sh
   pnpm build
@@ -60,11 +62,11 @@
   pnpm changeset
   ```
 
-## Release & Publish app
+## Release & Publish
 
 This boilerplate uses [changesets][changesets-url] to automatically generate `CHANGELOG`, create releases and publish to NPM registry via GitHub Actions. You can see action details at [release.yml](/.github/workflows//release.yml).
 
-To automating publish your app, follow these steps:
+To automating publish your Node.js package, follow these steps:
 
 - Create a `NPM_TOKEN`. [See this article for more details](https://docs.npmjs.com/creating-and-viewing-access-tokens). Make sure the type of access token is **Automation**.
 
