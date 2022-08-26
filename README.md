@@ -13,7 +13,7 @@
 - Linting with [Eslint][eslint-url] and code formatting with [Prettier][prettier-url]
 - Conventional commit messages with [Commitlint][commitlint-url]
 - Build with [Rollup][rollup-url]
-- [Jest][jest-url] for Unit test
+- [Vitest][vitest-url] for Unit test
 - Automated release with [changesets][changesets-url]
 - Build library for Node.js 14 or newer.
 - Support both CJS & ESM.
@@ -89,4 +89,4 @@ To automating publish your Node.js package, follow these steps:
 [prettier-url]: https://prettier.io
 [changesets-url]: https://github.com/changesets/changesets
 [rollup-url]: https://rollupjs.org
-[jest-url]: https://jestjs.io
+[vitest-url]: https://vitest.dev/
