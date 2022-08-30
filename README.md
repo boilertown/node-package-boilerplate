@@ -44,13 +44,7 @@
 
 ## Development
 
-- Run the package in development mode:
-
-  ```sh
-  pnpm dev
-  ```
-
-- Build for production:
+- Build the package to release:
 
   ```sh
   pnpm build
