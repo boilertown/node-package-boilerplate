@@ -14,9 +14,10 @@
 	],
 	"scripts": {
 		"build": "rollup -c",
+		"test": "vitest",
 		"prepare": "husky install",
-		"release": "changeset publish",
-		"test": "vitest"
+		"changeset": "changeset",
+		"release": "changeset publish"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": [
