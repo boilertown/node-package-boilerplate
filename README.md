@@ -4,7 +4,7 @@
   <p>
     A boilerplate with opinionated setup to help you kickstart your own Node.js package.
   </p>
-  <img src="https://img.shields.io/github/license/boilertowns/node-package-boilerplate?style=flat-square" alt="MIT license" >
+  <img src="https://img.shields.io/github/license/boilertown/node-package-boilerplate?style=flat-square" alt="MIT license" >
 </div>
 
 ## The Setup
@@ -20,20 +20,20 @@
 
 ## Get Started
 
-- Use [Boilertowns](https://github.com/boilertowns/create-boilertowns) CLI.
+- Use [Boilertown](https://github.com/boilertown/create-boilertown) CLI.
 
   ```sh
   # npm
-  npm create boilertowns@latest -- -b node-package-boilerplate
+  npm create boilertown@latest -- -b node-package-boilerplate
 
   # yarn
-  yarn create boilertowns -b node-package-boilerplate
+  yarn create boilertown -b node-package-boilerplate
 
   # pnpm
-  pnpm create boilertowns -b node-package-boilerplate
+  pnpm create boilertown -b node-package-boilerplate
 
   # bun
-  bun create boilertowns/node-package-boilerplate [package-name]
+  bun create boilertown/node-package-boilerplate [package-name]
   ```
 
 - Click the green "Use this template" button to generate a new repository with the same structure and files.
@@ -76,7 +76,7 @@ To automating publish your Node.js package, follow these steps:
 
 **node-package-boilerplate** ❤️ your contributions. If you have any ideas, suggestions, fixes, feel free to contribute.
 
-[boilertowns-url]: https://github.com/boilertowns
+[boilertown-url]: https://github.com/boilertown
 [typescript-url]: https://www.typescriptlang.org
 [eslint-url]: https://eslint.org
 [commitlint-url]: https://github.com/conventional-changelog/commitlint
